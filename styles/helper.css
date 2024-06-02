@@ -1,0 +1,25 @@
+.container {
+    @apply max-w-screen-xl mx-auto px-6;
+}
+
+.row {
+    @apply flex flex-wrap
+}
+
+.img-fluid {
+    @apply w-full h-full object-cover
+}
+
+.heading {
+    @apply text-orange-800 text-lg uppercase font-medium mb-5 underline decoration-2 underline-offset-4
+}
+
+.loader {
+    @apply fixed inset-0 h-full w-full bg-orange-50 flex items-center justify-center z-50 transition-all duration-300
+}
+
+.loader-element {
+    @apply w-[60px] h-[60px] border rounded-full border-4 border-orange-600 border-l-orange-200 animate-spin
+}
+
+
